@@ -43,7 +43,7 @@ Then run the following command
 Copy the raw hexorcist.py file then paste into a online compiler and hit run
 
 After running **hexorcist.py** you should see a screen like this
-![terminal screen]([change later](https://github.com/WTCSC/the-hexorcist-rocktutman1/blob/main/images/Hexorcist_Running.png))
+![terminal screen](https://github.com/WTCSC/the-hexorcist-rocktutman1/blob/main/images/Hexorcist_Running.png)
 ## Configuration
 
 No configuration is curently available
@@ -53,4 +53,4 @@ No configuration is curently available
 * Move into the git-repo (as done earlier)
 * Type pytest -v
 * Look at the results print
-  ![testresults]([change later](https://github.com/WTCSC/the-hexorcist-rocktutman1/blob/main/images/Hexorcist_Tests.png))
+  ![testresults](https://github.com/WTCSC/the-hexorcist-rocktutman1/blob/main/images/Hexorcist_Tests.png)
