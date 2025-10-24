@@ -9,6 +9,8 @@ def to_decimal(base, num):
         place += 1
     return num2
 def from_decimal(goal, num2):
+    if num2 == 0:
+        return "0"
     result = ""
     while num2 > 0:
         digits = "0123456789abcdefghijklmnopqrstuvwxyz"

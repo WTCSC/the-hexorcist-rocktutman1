@@ -23,12 +23,12 @@ def test_other_to_to_decimal():
 
 def test_decimal_to_base10():
     assert from_decimal(10, 255) == '255'
-    assert from_decimal(10, 0) == ''
+    assert from_decimal(10, 0) == '0'
     assert from_decimal(10, 67) == '67'
 
 def test_decimal_to_base16():
     assert from_decimal(16, 255) == 'ff'
-    assert from_decimal(16, 0) == ''
+    assert from_decimal(16, 0) == '0'
     assert from_decimal(16, 419) == '1a3'
 
 def test_decimal_to_other():
